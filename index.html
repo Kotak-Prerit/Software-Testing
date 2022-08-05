@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Software Testing</title>
+</head>
+<body>
+    <nav>
+        <a class="logo" href="#"><img src="img_vid/logo.png" alt="logo" height="40px"></a>
+        <div class="navigation">
+            <div class="toggle"><span></span></div>
+            <ul class="main_links">
+                <li><a href="showcase.html">Projects</a></li>
+                <li><a href="#">Developer Info</a></li>
+                <li><a href="#">Source</a></li>
+                <li><a class="contact" href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <ul class="login_signup">
+            <li><a href="#">Login</a></li>
+            <li class="SignUp"><a class="SignUp_anchor" href="#">Sign Up</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+    <p>Name : Prerit Kotak <br> Course : IMCA <br> Semester : 5<sup>th</sup> <br> Subject : Software Testing <br> Task : Design a Site that contains atleat 5 to 6 pages & let user create their account <br> College : Bhagwan Mahavir University <br> Faculty : Dipali Shah </p>
+    </div>
+
+    <div class="Register">
+        <a href="#">Login</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <script>
+        const navigation = document.querySelector('.navigation');
+        document.querySelector('.toggle').onclick = function()
+        {
+            this.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+
+</body>
+</html>
